@@ -33,6 +33,9 @@ a{
     margin: 0 auto;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 
 
 
@@ -78,6 +81,49 @@ a{
     min-height: 300px;
 }
 
+.paragrafo{
+    margin: 10px 10px;
+    margin-bottom: 20px;
+}
+
+.titolo, .paragrafo{
+    text-align: center;
+}
+
+.bottone{
+    background-color: white;
+    border-radius: 15px;
+}
+
+.scarica{
+    margin-left: 70px;
+    border: 1px solid white;
+}
+
+.browser{
+    margin-left: 15px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.testo-img{
+    text-align: left;
+    margin-top:30px ;
+}
+
+.tasto-container-medio{
+    text-align: center;
+    display: block;
+    background-color: rgb(65, 111, 180);
+    color: white;
+}
+
+.paragrafo-img{
+    text-align: left;
+    margin-top: 10px;
+}
+
 .container-medio{
     max-width: 700px;
     margin: 0 auto;
@@ -93,12 +139,12 @@ a{
 }
 
 .col-big{
-    width: 60%;
+    width: 70%;
     border: 1px solid yellow;
 }
 
 .col-small{
-    width: 40%;
+    width: 30%;
     border: 1px solid yellow;
 }
 
@@ -118,7 +164,7 @@ a{
 
 .bottone{
     padding: 10px;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
 }
 
 .col-divisosei{
