@@ -45,6 +45,15 @@ body{
     justify-content: space-between;
 }
 
+.discord-header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+.nav{
+    color: white;
+}
+
 .logo{
     /* padding: 10px; */
     margin: 20px 20px;
@@ -61,6 +70,7 @@ body{
     height: 25px;
     line-height: 25px;
     font-size: 15px;
+    color: black;
 }
 
 .menu-link{
@@ -78,11 +88,20 @@ body{
     max-width: 500px;
     margin: 0 auto;
     min-height: 300px;
+    color: white;
 }
 
 .paragrafo{
     margin: 10px 10px;
     margin-bottom: 20px;
+}
+
+.paragrafo-sfondo{
+    background-repeat: repeat;
+    background-image: url(../img/stars.svg);
+    margin: 10px 10px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .titolo, .paragrafo{
@@ -96,7 +115,8 @@ body{
 
 .scarica{
     margin-left: 70px;
-    border: 1px solid white;
+    border: 1px solid rgb(255, 255, 255);
+    color: black;
 }
 
 .browser{
@@ -159,7 +179,10 @@ body{
 }
 
 .bg-gray{
+   
+    /* background-image: url(../img/wave.svg); */
     background-color: lightgray;
+    background-size: cover;
 }
 
                        /* FOOTER */
@@ -199,13 +222,22 @@ body{
 .registrati{
     width: 70px;
     margin: 30px 20px;
-    background-color: rgb(65, 111, 180);
+    background-color: rgb(82, 65, 240);
     border-radius: 10px;
     text-align: center;
     vertical-align: middle;
     height: 25px;
     line-height: 25px;
     font-size: 15px;
+    color: white;
+}
+
+.blue{
+    color: rgb(65, 111, 180);
+    font-weight: 600;
+}
+
+.white{
     color: white;
 }
 
@@ -234,9 +266,9 @@ body{
     padding: 20px 0;
 }
 
-.debug .bg-blue{
+/* .debug .bg-blue{
     background-color: dodgerblue;
-}
+} */
 
 .debug .col-big{
     min-height: 200px;
