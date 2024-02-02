@@ -191,6 +191,10 @@ body{
     justify-content: space-between;
 }
 
+.ul-footer{
+    margin: 10px 10px;
+}
+
 .discord-footer{
     background-color: rgb(50, 48, 48);
 }
@@ -239,10 +243,13 @@ body{
 .blue{
     color: rgb(65, 111, 180);
     font-weight: 600;
+    margin-bottom: 15px;
 }
 
 .white{
     color: white;
+    margin-bottom: 10px;
+    font-size: 12px;
 }
 
 
