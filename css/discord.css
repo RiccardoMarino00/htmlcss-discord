@@ -91,6 +91,18 @@ body{
     color: white;
 }
 
+.titolo{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.titolo-medio{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px;
+}
+
 .paragrafo{
     margin: 10px 10px;
     margin-bottom: 20px;
@@ -129,6 +141,8 @@ body{
 .testo-img{
     text-align: left;
     margin-top:30px ;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 .tasto-container-medio{
@@ -143,6 +157,7 @@ body{
     line-height: 30px;
     margin-left: 270px;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .paragrafo-img{
